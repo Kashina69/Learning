@@ -1,9 +1,40 @@
-# GET http://localhost:3000/todo/todos
+### ============================
+### Get all todos
+### ============================
+GET http://localhost:3000/todo-list
 
-# GET http://localhost:3000/todo/todos/1234
 
-# POST http://localhost:3000/todo/udpate/1234
+### ============================
+### Create a new todo
+### ============================
+POST http://localhost:3000/todo-list
+Content-Type: application/json
 
-# DELETE http://localhost:3000/todo/delete/1234/
+{
+  "title": "Learn NestJS architecture properly"
+}
 
-GET  http://localhost:3000/todo/todos?name="Home work"
+
+### ============================
+### Create another todo
+### ============================
+POST http://localhost:3000/todo-list
+Content-Type: application/json
+
+{
+  "title": "Refactor JSON DB into repository pattern"
+}
+
+
+### ============================
+### Toggle a todo (mark completed)
+### Replace <TODO_ID> with real id
+### ============================
+PATCH http://localhost:3000/todo-list/<TODO_ID>/toggle
+
+
+### ============================
+### Delete a todo
+### Replace <TODO_ID> with real id
+### ============================
+DELETE http://localhost:3000/todo-list/<TODO_ID>
