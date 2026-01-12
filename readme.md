@@ -1,3 +1,1 @@
-## Learning 
-
-My learnings 
+## React Native Learnings 
