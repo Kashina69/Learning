@@ -261,3 +261,12 @@ Using NestJS CLI and following its conventions helps keep your app organized and
 
 ---
 
+# Arcitecture
+
+
+## Flow of making a nest js application 
+
+- create a module 
+- controller classes to handle incoming request
+- service classes in the module to handel bussiness logic 
+- reposity classes to data access
