@@ -1,3 +1,3 @@
-## Learning 
+# Learning React
 
-My learnings 
+- How to properly handel data fetching in react js`data fetching.md` 
