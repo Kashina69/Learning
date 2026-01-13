@@ -1,3 +1,2 @@
-## Learning 
+## Golang Learnings
 
-My learnings 
